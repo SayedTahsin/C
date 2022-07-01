@@ -1,0 +1,16 @@
+postfix    		() [] -> . ++ --    			Left to right
+Unary		+ - ! ~ ++  -- (type)*  &  sizeof		Right to left
+multiplicative	* / %				Left to Right
+Additive		+ -				left to right
+shift		<< >>				left to right
+relational 		< <= > =>				left to right
+Equality 		++ !=				left to right
+Bitwise AND	& 				left to right
+Bitwise XOR  	^				left to right
+Bitwise OR	|				left to right
+logical AND	&&				left to right
+logical OR		||				left to right
+conditional	? :				right to left
+asssignment 	= += -= *= /= %= >>= <<= &= ^= |=	right to left
+comma 		,				left to right
+	
